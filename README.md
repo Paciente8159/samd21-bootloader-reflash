@@ -6,6 +6,9 @@ This is a collection of scripts and firmware that helps to restore your Wemos ba
 # dependencies
 First you need to have openocd on your PC. Add it to your PATH or simply place these files in the same path of openocd.exe
 
+# firmware
+The CMSIS-DAP firmware was based on this [site](http://wiki.geniekits.com/usb_express/cmsis-dap)
+
 # using
 Burn the provided CMSIS-DAP firmware to your bluepill (using STLink or other programmer)
 Connect Bluepill pin B11 to Wemos SWDIO and Bluepill pin B10 to Wemos SWCLK. and plug both boards to USB.
